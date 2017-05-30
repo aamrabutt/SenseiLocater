@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="signup_menu_as">24dp</dimen>
+    <dimen name="go_padding">24dp</dimen>
+    <dimen name="go2_padding">90dp</dimen>
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="big_font_size">16dp</dimen>
+    <dimen name="extra_big_font_size">26dp</dimen>
+    <dimen name="medium_font_size">20dp</dimen>
+    <dimen name="pic_margin">5dp</dimen>
+    <dimen name="seperator_margin">3dp</dimen>
+    <dimen name="seperator_width">1dp</dimen>
+    <dimen name="seperator_large_margin">3dp</dimen>
+
+
+    <dimen name="img_size">150dp</dimen>
+    <dimen name="margin">10dip</dimen>
+    <dimen name="margin_top">10dip</dimen>
+    <dimen name="margin_left">10dip</dimen>
+    <dimen name="btn_edit_margin_left">40dip</dimen>
+    <dimen name="et_margin_top">30dip</dimen>
+
+
+    <dimen name="font">16dp</dimen>
+    <dimen name="padding_im">20dp</dimen>
+    <dimen name="padding_left_tv">19dp</dimen>
+    <dimen name="padding_top_tv">14dp</dimen>
+    <dimen name="padding_left_tv_date">45dp</dimen>
+    <dimen name="padding_left_tv_time">49dp</dimen>
+
+</resources>

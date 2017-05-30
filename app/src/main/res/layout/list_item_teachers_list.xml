@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/img_teacher_teacher_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anonymouspic"/>
+    <TextView
+        android:id="@+id/tv_cell_teacher_list"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/img_teacher_teacher_list"
+        android:textSize="@dimen/big_font_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/user_name_teachers_list_activity"/>
+    <ImageView
+        android:id="@+id/img_status_teacher_list"
+       android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/pic_margin"
+        android:src="@drawable/status"/>
+    <View
+        android:layout_below="@+id/img_teacher_teacher_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_width"
+        android:layout_marginTop="@dimen/seperator_margin"
+        android:layout_marginBottom="@dimen/seperator_margin"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>

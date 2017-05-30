@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/im1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_menu_gallery"
+    android:padding="@dimen/padding_im"
+    />
+    <TextView
+        android:id="@+id/tv_rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/im1"
+        android:text="@string/R_notification"
+        android:textSize="@dimen/big_font_size"
+        android:textStyle="bold"
+        android:paddingLeft="@dimen/padding_left_tv"
+        android:paddingTop="@dimen/padding_top_tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_below="@id/tv_rollno"
+        android:text="@string/name_notification"
+        android:layout_toRightOf="@id/im1"
+        android:paddingLeft="@dimen/padding_left_tv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_date"
+
+        android:text="@string/date_notification"
+        android:paddingTop="@dimen/padding_top_tv"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:text="@string/time_notification"
+
+
+        android:layout_below="@id/tv_date"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+        <!--/>android:paddingLeft="@dimen/padding_left_tv_time"-->
+</RelativeLayout>

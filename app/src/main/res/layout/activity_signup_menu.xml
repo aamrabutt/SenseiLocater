@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.lab42.maham.senseilocater.activity_signup_menu">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_menu_as"
+        android:textSize="@dimen/go_padding"
+        android:id="@+id/tv_signup_menu_as"
+        android:layout_marginTop="@dimen/signup_menu_as"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_signup_menu_as_std"
+        android:text="@string/signup_menu_as_student"
+        android:textSize="@dimen/signup_menu_as"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_signup_menu_as_std"
+        android:text="@string/signup_menu_as_teacher"
+        android:textSize="@dimen/signup_menu_as"
+        android:id="@+id/tv_signup_menu_as_teacher"
+        />
+</RelativeLayout>
